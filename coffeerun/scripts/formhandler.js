@@ -6,7 +6,7 @@
 
     class FormHandler {
         constructor(selector) {
-            console.log('In paymentformHandler constructor...');
+            console.log('In formhandler constructor...');
 
             if (!selector) { throw new Error('No selector provided'); }
 

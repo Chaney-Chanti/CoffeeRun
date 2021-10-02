@@ -23,8 +23,6 @@
     var checkList = new CheckList(CHECKLIST_SELECTOR);
     checkList.addClickHandler(truck.deliverOrder.bind(truck));
 
-
-
     // var formHandler = new FormHandler(VALIDATE_SELECTOR);
     // formHandler.addValidateHandler(function(data) {
     //     console.log(data)
